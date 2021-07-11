@@ -1,4 +1,26 @@
 /*
+* Custom styles added after the template
+*/
+
+.definitely-black-text {
+  color: black;
+}
+.definitely-black-text:before {
+  background: black;
+}
+.custom-navbar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+.nowrap {
+  white-space: nowrap;
+  margin-bottom: 8rem;
+}
+
+/*
 * Resume template
 * Created by : Ahmed Essa
 * website : www.ahmedessa.net
@@ -298,6 +320,7 @@ a.active {
 }
 
 
+
 /* about section
 ==================================================*/
 
@@ -307,6 +330,7 @@ a.active {
 
 .about-img-div img {
     margin: 0 auto;
+
 }
 
 .about-border {
